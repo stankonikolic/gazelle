@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Gazelle.JS", "..\Gazelle.JS\Gazelle.JS.njsproj", "{D495CE76-82BE-4552-B538-15702BDB63F4}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Gazelle.JS", "view\Gazelle.JS\Gazelle.JS.njsproj", "{D495CE76-82BE-4552-B538-15702BDB63F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{C02A8D85-C2CE-4B7C-BA0B-6B6582CDF817}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "runtime", "runtime", "{AD5B8D03-CE6A-453B-9F8C-2974275F8807}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +22,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D495CE76-82BE-4552-B538-15702BDB63F4} = {C02A8D85-C2CE-4B7C-BA0B-6B6582CDF817}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6CBB5D7D-2D64-4CEC-8113-92237B924F3E}

@@ -9,7 +9,7 @@ module.exports = {
         ios: "./src/ios/gazelle.ios.js"
     },
     output: {
-        path: __dirname + "/dist",
+        path: __dirname + "/../../../dist/view",
         filename: "gazelle.[name].js"
     },
     module: {
