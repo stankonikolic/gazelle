@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{C02A8D85-C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "runtime", "runtime", "{AD5B8D03-CE6A-453B-9F8C-2974275F8807}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gazelle.Core", "runtime\Gazelle.Core\Gazelle.Core.csproj", "{F1639334-FBE6-4DE8-B5C0-9E12FECC90CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{D495CE76-82BE-4552-B538-15702BDB63F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D495CE76-82BE-4552-B538-15702BDB63F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D495CE76-82BE-4552-B538-15702BDB63F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1639334-FBE6-4DE8-B5C0-9E12FECC90CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1639334-FBE6-4DE8-B5C0-9E12FECC90CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1639334-FBE6-4DE8-B5C0-9E12FECC90CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1639334-FBE6-4DE8-B5C0-9E12FECC90CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D495CE76-82BE-4552-B538-15702BDB63F4} = {C02A8D85-C2CE-4B7C-BA0B-6B6582CDF817}
+		{F1639334-FBE6-4DE8-B5C0-9E12FECC90CF} = {AD5B8D03-CE6A-453B-9F8C-2974275F8807}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6CBB5D7D-2D64-4CEC-8113-92237B924F3E}
